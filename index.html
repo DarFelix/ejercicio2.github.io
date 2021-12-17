@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 JavaScript</title>
+</head>
+<!-- carga estilos css -->
+<link rel="stylesheet" href="css/estilos.css">
+<!-- carga sweet alert -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+<body>
+
+    <h1>Función Cuenta</h1>
+    <p>El siguiente programa imprime un número en pantalla desde 0, hasta el número
+        que determines en el campo de entrada.
+        Por favor ingresa un número:
+    </p>
+    <form>
+        <input type="number" name="valor" id="valor" >
+    </br>
+    </br>
+        <input type="button" name="btn1" value="Iniciar" onclick="cuenta()" id="btn1">
+    </br>
+        <input type="button" name="btn2" value="Detener" onclick="stop()" id="btn2">
+    </br>
+        <input type="reset" value="Limpiar">
+
+    </form>
+
+    <h1 id="contad">
+        Número <span id="contador">0</span>
+    </h1>
+
+
+    <script src="script/script2.js"></script>
+</body>
+</html>
